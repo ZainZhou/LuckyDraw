@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蝴蝶来野大转盘抽奖</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        get_url = ""; //这里填ajax请求的地址.
+    </script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/styleset.js"></script>
+    <script src="js/jquery.rotate.min.js"></script>
+</head>
+<body>
+    <div class="LuckyContainer">
+        <img class="DrawPlate" src="img/DrawPlate.png">
+        <img src="img/begin_btn.png" class="begin_btn">
+    </div>
+    <div class="gift_list">
+        <ul>
+            <li><span class="nickname">燕所小飞</span>刚刚抽中了<span class="prize">三等奖</span>,快来试试你的运气吧!</li>
+            <li><span class="nickname">好哦欧菲光</span>刚刚抽中了<span class="prize">三等奖</span>,快来试试你的运气吧!</li>
+            <li><span class="nickname">工会图木托</span>刚刚抽中了<span class="prize">三等奖</span>,快来试试你的运气吧!</li>
+            <li><span class="nickname">燕所小飞</span>刚刚抽中了<span class="prize">三等奖</span>,快来试试你的运气吧!</li>  <!-- 和第一条一样 -->
+        </ul>
+    </div>
+    <div class="LuckyGuide">
+        <p class="gift_set">
+            · 奖项设置
+        </p>
+        <p>
+            一等奖：价值65元蝴蝶来野门票 10张
+        </p>
+        <p>
+            二等奖：价值20元蝴蝶来野吉祥物抱枕 20个
+        </p>
+        <p style="margin-bottom: 10px">
+            三等奖：价值10元门票优惠券 60个
+        </p>
+    </div>
+    <input type="button" value="查看我的奖品" class="see_gift">
+    <input type="button" value="活动规则" class="see_rule">
+</body>
+</html>
