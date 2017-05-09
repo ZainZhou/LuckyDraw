@@ -35,12 +35,13 @@ $(function(){
         if(!Btn_flag){
             return false;
         }
+        Btn_flag = false;
         //测试用
         //if(_data.success == true){
         //    oPlate.rotate({
         //        angle: 0,
-        //        animateTo: 1440+_data.award.angle,
-        //        duration: 5000,
+        //        animateTo: 4320+_data.award.angle,
+        //        duration: 10000,
         //        callback:function(){
         //            if(_data.award.level){
         //                alert("恭喜您获得"+_data.award.level+_data.award.prize);
