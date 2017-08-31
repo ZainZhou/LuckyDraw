@@ -15,9 +15,6 @@ Timer.prototype = {
             }
         },10);
     },
-    clearmTimer : function(){
-        clearInterval(this.mTimer);
-    },
     setTimer : function(){
         var _this = this;
         this.Timer = setInterval(function(){
@@ -29,6 +26,7 @@ Timer.prototype = {
     },
     clearTimer : function(){
         clearInterval(this.Timer);
+        clearInterval(this.mTimer);
     },
     getmSecond : function(){
         if(this.msecond >= 10){
